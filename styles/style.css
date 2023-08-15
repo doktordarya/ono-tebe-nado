@@ -3,7 +3,6 @@
   justify-content: space-between;
   align-items: center;
   max-width: 1340px;
-  max-height: 109px;
   margin: 92px auto 92px auto;
   font-size: 18px;
   font-style: normal;
@@ -30,7 +29,7 @@
 .header__logo {
   display: flex;
   margin-bottom: 4px;
-  margin-right: 355px;
+  margin-right: auto;
   width: 148px;
   height: 105px;
 }
