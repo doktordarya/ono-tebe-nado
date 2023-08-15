@@ -1,9 +1,9 @@
 .header {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   max-width: 1340px;
+  max-height: 109px;
   margin: 92px auto 92px auto;
   font-size: 18px;
   font-style: normal;
@@ -29,21 +29,17 @@
 
 .header__logo {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   margin-bottom: 4px;
+  margin-right: 355px;
   width: 148px;
   height: 105px;
 }
 
 .address {
+  max-width: 240px;
   font-style: normal;
   text-underline-offset: 5px;
   line-height: 24.3px;
-}
-
-.header__address {
-  margin: 5px 0 7px 355px;
 }
 
 .cover {
