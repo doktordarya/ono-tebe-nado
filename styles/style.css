@@ -1,6 +1,7 @@
 .header {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   max-width: 1340px;
   margin: 92px auto 92px auto;
@@ -23,7 +24,7 @@
 }
 
 .header__link {
-  text-underline-offset: 5px;
+  text-underline-offset: 3px;
 }
 
 .header__logo {
@@ -42,10 +43,7 @@
 }
 
 .header__address {
-  display: flex;
-  flex-direction: column;
   margin: 5px 0 7px 355px;
-  max-width: 240px;
 }
 
 .cover {
@@ -298,12 +296,6 @@
   font-weight: 400;
   text-underline-offset: 5px;
   color: #000;
-}
-
-.footer__address {
-  display: flex;
-  flex-direction: column;
-  max-width: 240px;
 }
 
 .footer__menu-list {
